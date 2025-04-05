@@ -1,0 +1,38 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.left_block,.right_block {
+  float: left;
+  padding: 1em
+}
+
+.file_button, .text_button {
+  float: left;
+  padding: 1em
+}
+
+.input_window button{
+  position: absolute;
+  top: 325px;
+  left: 875px;
+}
+
+.send_button {
+  float: right;
+  padding: 1em;
+}
+
+.right_block_label {
+  font-size: 2rem;
+  padding-bottom: 0.8em;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  font-size: 2rem;
+}
