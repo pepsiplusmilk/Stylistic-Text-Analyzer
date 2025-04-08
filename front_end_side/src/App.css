@@ -5,20 +5,64 @@
   text-align: center;
 }
 
-.left_block,.right_block {
+.file_input {
+  background: #121212;
+  border-color: rgba(133, 133, 133, 100);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  place-items: center;
+  height: 392px;
+  width: 757px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+.file_input_info {
+  opacity: 0.5;
+  padding: 10px;
+}
+
+.loaded_icon {
+  float: left !important;
+}
+
+.text_near_loaded_file_icon {
+  padding-top: 25px;
+}
+
+.text_under_loaded_file_icon {
+  padding-top: 50px;
+}
+
+.left_block, .right_block {
+  float: left;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.file_button, .text_button, .overflow_counter {
   float: left;
   padding: 1em
 }
 
-.file_button, .text_button {
-  float: left;
-  padding: 1em
+.overflow_counter {
+  text-align: right;
+  padding-top: 1.51em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.input_window {
+  position: relative;
 }
 
 .input_window button{
   position: absolute;
-  top: 325px;
-  left: 875px;
+  top: 0;
+  right: 0;
 }
 
 .send_button {
@@ -35,4 +79,5 @@ textarea {
   resize: none;
   padding: 10px;
   font-size: 2rem;
+  border-radius: 10px;
 }
